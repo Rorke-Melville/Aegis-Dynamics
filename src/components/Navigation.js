@@ -262,7 +262,7 @@ const Navigation = () => {
               <a className="nav-link" href="#solutions" style={{ color: isScrolled ? '#fff' : '#00ffff', transition: 'color 0.5s ease' }}>Solutions</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#insights" style={{ color: isScrolled ? '#fff' : '#00ffff', transition: 'color 0.5s ease' }}>Insights</a>
+              <a className="nav-link" href="#threat-map" style={{ color: isScrolled ? '#fff' : '#00ffff', transition: 'color 0.5s ease' }}>Insights</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contact" style={{ color: isScrolled ? '#fff' : '#00ffff', transition: 'color 0.5s ease' }}>Contact</a>
