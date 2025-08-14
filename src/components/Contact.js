@@ -48,7 +48,10 @@ const Contact = () => {
                     type="text" 
                     className="form-control bg-dark text-white border-secondary" 
                     placeholder="First Name"
-                    style={{ borderColor: 'rgba(0, 255, 255, 0.3)' }}
+                    style={{ 
+                      borderColor: 'rgba(0, 255, 255, 0.3)',
+                      color: '#ffffff !important'
+                    }}
                   />
                 </div>
                 <div className="col-md-6">
@@ -56,7 +59,10 @@ const Contact = () => {
                     type="text" 
                     className="form-control bg-dark text-white border-secondary" 
                     placeholder="Last Name"
-                    style={{ borderColor: 'rgba(0, 255, 255, 0.3)' }}
+                    style={{ 
+                      borderColor: 'rgba(0, 255, 255, 0.3)',
+                      color: '#ffffff !important'
+                    }}
                   />
                 </div>
                 <div className="col-12">
@@ -64,13 +70,19 @@ const Contact = () => {
                     type="email" 
                     className="form-control bg-dark text-white border-secondary" 
                     placeholder="Email Address"
-                    style={{ borderColor: 'rgba(0, 255, 255, 0.3)' }}
+                    style={{ 
+                      borderColor: 'rgba(0, 255, 255, 0.3)',
+                      color: '#ffffff !important'
+                    }}
                   />
                 </div>
                 <div className="col-12">
                   <select 
                     className="form-select bg-dark text-white border-secondary"
-                    style={{ borderColor: 'rgba(0, 255, 255, 0.3)' }}
+                    style={{ 
+                      borderColor: 'rgba(0, 255, 255, 0.3)',
+                      color: '#ffffff !important'
+                    }}
                   >
                     <option>Select Solution Interest</option>
                     <option>Quantum-Resistant Encryption</option>
@@ -84,7 +96,10 @@ const Contact = () => {
                     className="form-control bg-dark text-white border-secondary" 
                     rows="4" 
                     placeholder="Tell us about your security needs..."
-                    style={{ borderColor: 'rgba(0, 255, 255, 0.3)' }}
+                    style={{ 
+                      borderColor: 'rgba(0, 255, 255, 0.3)',
+                      color: '#ffffff !important'
+                    }}
                   ></textarea>
                 </div>
                 <div className="col-12">
@@ -105,6 +120,18 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      
+      <style jsx>{`
+        .form-control::placeholder,
+        .form-select::placeholder {
+          color: #9ca3af !important;
+          opacity: 1 !important;
+        }
+        
+        .form-control:focus::placeholder {
+          color: #6b7280 !important;
+        }
+      `}</style>
     </section>
   );
 };
