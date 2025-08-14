@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Aegis-Dynanics/static/css/main.310b9a07.css",
-    "main.js": "/Aegis-Dynanics/static/js/main.86275996.js",
-    "static/js/453.981291fe.chunk.js": "/Aegis-Dynanics/static/js/453.981291fe.chunk.js",
-    "index.html": "/Aegis-Dynanics/index.html",
-    "main.310b9a07.css.map": "/Aegis-Dynanics/static/css/main.310b9a07.css.map",
-    "main.86275996.js.map": "/Aegis-Dynanics/static/js/main.86275996.js.map",
-    "453.981291fe.chunk.js.map": "/Aegis-Dynanics/static/js/453.981291fe.chunk.js.map"
+    "main.css": "/Aegis-Dynamics/static/css/main.310b9a07.css",
+    "main.js": "/Aegis-Dynamics/static/js/main.033ac0e2.js",
+    "static/js/453.981291fe.chunk.js": "/Aegis-Dynamics/static/js/453.981291fe.chunk.js",
+    "index.html": "/Aegis-Dynamics/index.html",
+    "main.310b9a07.css.map": "/Aegis-Dynamics/static/css/main.310b9a07.css.map",
+    "main.033ac0e2.js.map": "/Aegis-Dynamics/static/js/main.033ac0e2.js.map",
+    "453.981291fe.chunk.js.map": "/Aegis-Dynamics/static/js/453.981291fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.310b9a07.css",
-    "static/js/main.86275996.js"
+    "static/js/main.033ac0e2.js"
   ]
 }
