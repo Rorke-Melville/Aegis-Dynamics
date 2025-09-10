@@ -267,18 +267,6 @@ const Navigation = () => {
             <li className="nav-item">
               <a className="nav-link" href="#contact" style={{ color: isScrolled ? '#fff' : '#00ffff', transition: 'color 0.5s ease' }}>Contact</a>
             </li>
-            <li className="nav-item">
-              <button 
-                className="btn btn-outline-light btn-sm ms-2" 
-                style={{ 
-                  color: isScrolled ? '#fff' : '#00ffff', 
-                  borderColor: isScrolled ? '#fff' : '#00ffff', 
-                  transition: 'color 0.5s ease, border-color 0.5s ease' 
-                }}
-              >
-                Request Demo
-              </button>
-            </li>
           </ul>
         </div>
       </div>

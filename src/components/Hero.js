@@ -145,9 +145,6 @@ const Hero = () => {
                   >
                     Explore Solutions <ChevronRight className="ms-2" size={20} />
                   </a>
-                  <button className="btn btn-outline-light btn-lg px-4 py-3 rounded-pill fw-semibold">
-                    Request Demo <Play className="ms-2" size={20} />
-                  </button>
                 </div>
               </div>
             </div>
